@@ -1,0 +1,6 @@
+<p>This is the Menu</p>
+<div ng-controller="MenuCtrl">
+    <ul ng-repeat="item in list">
+        <li><a ng-href="{{'#/'+item.value}}">{{item.label}}</a> </li>
+    </ul>
+</div>
